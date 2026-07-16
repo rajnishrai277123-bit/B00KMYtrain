@@ -9,9 +9,9 @@ public class BookingService {
 
     public BookingService() {
         trainList.add(new Train(101, "shuldev express", "ballia", "gaziyabad", 108,17.50,4.30));
-        trainList.add(new Train(102, "kapila express", "siwan", "ratsar", 100,13.45,11.20));
-        trainList.add(new Train(103, "rajdhani express", "amadariya", "srilanka", 98,14.20,3.20));
-        trainList.add(new Train(104, "teju express", "chatwa", "anandvihar", 19,11.07,15.11));
+        trainList.add(new Train(102, "RAJDHANI express", "siwan", "ratsar", 100,13.45,11.20));
+        trainList.add(new Train(103, "SUPERFAST express", "amadariya", "srilanka", 98,14.20,3.20));
+        trainList.add(new Train(104, "PAWAN express", "chatwa", "anandvihar", 19,11.07,15.11));
         trainList.add(new Train(105, "harshit express", "ghazipur", "chandani chok", 78,14.34,18.34));
         trainList.add(new Train(106, "kali express", "ballia", "mumbai", 68,14.35,11.00));
         trainList.add(new Train(107, "sadbhawna express", "gorkhpur", "delhi", 58,11.00,12.00));

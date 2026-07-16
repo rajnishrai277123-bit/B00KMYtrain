@@ -88,8 +88,9 @@ public class Train {
 
     public boolean bookSeats(int count)
     {
-        if (count<=availableSeats){
-            availableSeats-=count;
+        if (this.availableSeats>=count){
+           this.availableSeats=this.availableSeats-count;
+            return true;
         }
         return false;
     }
